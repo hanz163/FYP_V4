@@ -1,0 +1,21 @@
+body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
+        }
+        .progress-bar {
+            height: 8px;
+            border-radius: 4px;
+            background-color: #e5e7eb;
+        }
+        .progress-fill {
+            height: 8px;
+            border-radius: 4px;
+            background-color: #22c55e;
+        }
+        .course-item {
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        .course-item:hover {
+            background-color: #d1d5db;
+        }

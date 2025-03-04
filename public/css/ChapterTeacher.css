@@ -1,0 +1,217 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.course-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Course Title */
+.course-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.course-header h1 {
+    color: #28a745;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.edit-button {
+    background: #28a745;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Chapters Layout */
+.chapters {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px;
+    width: 100%;
+    max-width: 1000px;
+    justify-items: center;
+}
+
+/* Chapter Cards */
+.chapter-card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 300px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chapter-card h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.chapter-card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* View Button */
+.view-button {
+    display: inline-block;
+    background: #28a745;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    align-self: flex-start;
+}
+
+/* New Chapter Form Styling */
+.new-chapter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+}
+
+/* Input Fields */
+.new-chapter input,
+.new-chapter textarea {
+    width: 90%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    outline: none;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Improve Textarea Appearance */
+.new-chapter textarea {
+    resize: none;
+    height: 80px;
+}
+
+/* New Chapter Button */
+.new-chapter-button {
+    background: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s ease;
+    width: 90%;
+}
+
+.new-chapter-button:hover {
+    background: #218838;
+}
+
+.leaderboard-container {
+    position: fixed;
+    top: 75px;
+    left: 0;
+    height: 100vh;
+    width: 250px; /* Adjust width if needed */
+    background: white;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    transform: translateX(-220px); /* Hide off-screen */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Title Styling */
+.leaderboard-container h2 {
+    text-align: center;
+    font-size: 25px;
+    color: #28a745;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Leaderboard Entries */
+.leaderboard p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* Hover Effect */
+.leaderboard-container:hover {
+    transform: translateX(0);
+}
+
+.view-button,
+.edit-button {
+    display: inline-block;
+    background: #28a745;
+    color: white;
+    padding: 8px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    align-self: flex-start;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, background 0.3s ease;
+}
+
+/* Hover Effect */
+.view-button:hover,
+.edit-button:hover {
+    background: #218838;
+}
+
+.delete-button {
+    display: inline-block;
+    background: #ff4d4d; /* Bright red */
+    color: white;
+    padding: 8px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    align-self: flex-start;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, background 0.3s ease;
+}
+
+.delete-button:hover {
+    background: #ff1a1a; /* Even brighter red for hover effect */
+}
+
+.sortable-placeholder {
+    background: rgba(40, 167, 69, 0.2); /* Light green effect */
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: height 0.2s ease-in-out;
+}
+.chapter-card {
+    transition: transform 0.2s ease-in-out, opacity 0.3s ease-in-out;
+}

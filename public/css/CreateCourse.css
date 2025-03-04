@@ -1,0 +1,122 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.create-course-container {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 500px;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 35px;
+}
+
+.create-course-container h1 {
+    font-size: 24px;
+    color: #28a745;
+    margin-bottom: 20px;
+}
+
+.create-course-container input,
+.create-course-container textarea,
+.create-course-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #333;
+}
+
+.create-course-container textarea {
+    resize: none;
+    height: 80px;
+}
+
+.create-course-container .readonly-input {
+    background-color: #e9ecef; /* Light gray background */
+    color: #6c757d; /* Gray text color */
+    pointer-events: none; /* Prevent interaction */
+    border: 1px solid #ccc;
+}
+
+.create-course-container select {
+    width: 40%;
+    max-width: 600px;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    float: left;
+    margin-right: 15px;
+}
+
+.create-course-container select:focus {
+    border-color: #3b82f6 !important;
+    box-shadow: 0 4px 8px rgba(52, 168, 83, 0.3) !important;
+    outline: none !important;
+}
+
+.create-course-container .btn-create {
+    background-color: #3b82f6;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.create-course-container .btn-create:hover {
+    background-color: #2563eb;
+}
+
+.create-course-container .btn-cancel {
+    background-color: #f1f1f1;
+    color: #333;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.create-course-container .btn-cancel:hover {
+    background-color: #e0e0e0;
+}
+
+input:focus {
+    border-color: #34a853;
+    box-shadow: 0 0 5px rgba(52, 168, 83, 0.3);
+    outline: none;
+}
+
+textarea:focus {
+    border-color: #34a853;
+    box-shadow: 0 0 5px rgba(52, 168, 83, 0.3);
+    outline: none;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/FYP/resources/views/AnswerQuestion.blade.php</file>
+            <file>file:/C:/xampp/htdocs/FYP/storage/logs/laravel.log</file>
+            <file>file:/C:/xampp/htdocs/FYP/resources/views/UploadQuestion.blade.php</file>
+            <file>file:/C:/xampp/htdocs/FYP/app/Services/OpenAIService.php</file>
+            <file>file:/C:/xampp/htdocs/FYP/app/Http/Controllers/QuestionController.php</file>
+            <file>file:/C:/xampp/htdocs/FYP/app/Services/DocxService.php</file>
+            <file>file:/C:/xampp/htdocs/FYP/routes/web.php</file>
+        </group>
+    </open-files>
+</project-private>
